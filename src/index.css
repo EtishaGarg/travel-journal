@@ -1,0 +1,94 @@
+body,head {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  padding: 20px;
+}
+
+.Header {
+  margin: auto;
+  width: 750px; /*550px*/
+  height: 55px;
+  background-color: #F55A5A;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Header--img {
+  height: 24px;
+  width: 24px;
+  margin-right: 7px;
+}
+
+.Header--heading {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14.46px;
+}
+
+.Card{
+  width: 642px; /*471px*/
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+
+.Card--img {
+  width: 170px; /*125px*/
+  height: 228px; /*168px*/
+  border-radius: 5px;
+  margin-right: 19px;
+}
+
+.Card--description {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  font-family: 'Inter';
+}
+
+.Card--location {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.Card--location > img {
+  margin-right: 4px;
+  width: 7px;
+  height: 9.55px;
+}
+
+.Card--location > h3 {
+  margin-right: 12px;
+  font-weight: 400;
+  font-family: 'Inter';
+  font-size: 15px;
+}
+
+.Card--location > a {
+  font-size: 15px;
+  color: #918E9B;
+}
+
+.Card--description > h2 {
+  margin-top: 4px;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.Card--description > p {
+  font-weight: 400;
+  font-size: 15px;
+  margin: auto;
+}
+
+.card--list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
