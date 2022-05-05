@@ -1,3 +1,7 @@
+# Travel Journal
+
+This is a travel journal web page made using CSS, HTML and React. This is an attempt to understand the requirements and usage of react props. You can also use the code to make your journal, you just need to add iamges to images folder within public folder and make the necessary modifications in data.js file
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
